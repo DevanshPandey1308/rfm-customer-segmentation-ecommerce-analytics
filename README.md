@@ -1,13 +1,13 @@
 **Customer Segmentation Using RFM Analysis**
 
-**Problem Statement:-*
+**Problem Statement :-*
 •Raw transaction data does not directly tell a business:
 •Who their best customers are
 •Who is about to churn
 •Where marketing money should be spent
 This project solves that using RFM-based customer segmentation.
 
-**Dataset**
+**Dataset :-**
 E-commerce transactional dataset containing:
 •Invoice details
 •Product information
@@ -15,7 +15,7 @@ E-commerce transactional dataset containing:
 •Customer IDs
 •Transaction timestamps
 
-**Project Workflow**
+**Project Workflow :-**
 
 **1. Data Cleaning & Preprocessing**
 Performed using Pandas:
@@ -56,14 +56,14 @@ Loyal	        Consistent repeat buyers
 At Risk	      Previously active, now inactive
 Dormant	      Low activity and low revenue
 
-**Business Insights**
+**Business Insights :-**
 This model helps businesses:
 •Identify top customers for retention
 •Detect potential churn early
 •Personalize marketing strategies
 •Optimize customer acquisition cost
 
-**Tech Stack**
+**Tech Stack :-**
 •Python
 •Pandas
 •NumPy
@@ -72,7 +72,7 @@ This model helps businesses:
 •Jupyter Notebook
 •Power BI (for dashboard visualization)
 
-**Files in Repository**
+**Files in Repository :-**
 •Ecommerce_Data_Analysis.ipynb → Full EDA + RFM modeling
 •Dashboard visuals → Customer segmentation insights
 •Raw datasets
