@@ -8,6 +8,8 @@
 •Where marketing money should be spent
 This project solves that using RFM-based customer segmentation.
 
+---
+
 **Dataset :-**
 
 **E-commerce transactional dataset containing :-**
@@ -16,6 +18,8 @@ This project solves that using RFM-based customer segmentation.
 •Quantity and price
 •Customer IDs
 •Transaction timestamps
+
+---
 
 **Project Workflow :-**
 
@@ -66,28 +70,37 @@ Matplotlib, Seaborn
 | At Risk   | Previously active, now inactive           | Re-engagement campaigns          |
 | Dormant   | Low activity and low spending             | Win-back or low-cost targeting   |
 
+---
 
-**Business Insights :-**
+**Business Insights**
 
-This model helps businesses:
-•Identify top customers for retention
-•Detect potential churn early
-•Personalize marketing strategies
-•Optimize customer acquisition cost
+| Capability | Impact |
+|------------|--------|
+| Identify top customers | Focus retention efforts on high-value users |
+| Detect churn risk | Enable early re-engagement strategies |
+| Personalize marketing | Target segments based on value and behavior |
+| Optimize acquisition cost | Avoid spending on low-value customers |
 
-**Tech Stack :-**
+---
 
-•Python
-•Pandas
-•NumPy
-•Matplotlib
-•Seaborn
-•Jupyter Notebook
-•Power BI (for dashboard visualization)
+**Tech Stack**
 
-**Files in Repository :-**
+| Category | Tools |
+|----------|------|
+| Programming | Python |
+| Data Handling | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
+| BI Tool | Power BI |
 
-•Ecommerce_Data_Analysis.ipynb → Full EDA + RFM modeling
-•Dashboard visuals → Customer segmentation insights
-•Raw datasets
-•Customer Segmentation Using RFM Analysis in E-Commerce.pptx → Project presentation covering methodology, insights, segments, and business recommendations
+---
+
+**Files in Repository**
+
+| File | Description |
+|------|-------------|
+| Ecommerce_Data_Analysis.ipynb | Full data cleaning, EDA, RFM modeling, and segmentation |
+| online_retail_data.csv | Transactional dataset used for analysis |
+| Customer Segmentation Using RFM Analysis in E-Commerce.pptx | Project presentation covering methodology, insights, segments, and business recommendations |
+| Dashboard Visuals | Power BI dashboard screenshots showing segment insights |
+
