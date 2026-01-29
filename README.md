@@ -18,6 +18,7 @@ E-commerce transactional dataset containing:
 **Project Workflow :-**
 
 **1. Data Cleaning & Preprocessing**
+
 Performed using Pandas:
 •Removed records with missing CustomerID
 •Detected and removed duplicate rows
@@ -26,6 +27,7 @@ Performed using Pandas:
 •Ensured correct data types for dates and numeric fields
 
 **2. Exploratory Data Analysis (EDA)**
+
 Analyzed:
 •Revenue trends over months
 •Sales behavior by day of the week
@@ -33,9 +35,11 @@ Analyzed:
 •Distribution of order frequency
 
 **Libraries used:**
+
 Matplotlib, Seaborn
 
 **3. RFM Feature Engineering**
+
 For each customer:
 Metric 	--   Definition
 Recency	     Days since last purchase
@@ -43,6 +47,7 @@ Frequency    Number of unique invoices
 Monetary	   Total revenue generated
 
 **4. RFM Scoring**
+
 Used quantile-based scoring (1–5 scale):
 •Low Recency → Higher score
 •High Frequency → Higher score
@@ -50,6 +55,7 @@ Used quantile-based scoring (1–5 scale):
 Converted R, F, M into customer segments.
 
 5. Customer Segmentation Logic
+
 Segment  --  	Meaning
 High Value	  Most recent, frequent, and high-spending customers
 Loyal	        Consistent repeat buyers
@@ -57,6 +63,7 @@ At Risk	      Previously active, now inactive
 Dormant	      Low activity and low revenue
 
 **Business Insights :-**
+
 This model helps businesses:
 •Identify top customers for retention
 •Detect potential churn early
@@ -64,6 +71,7 @@ This model helps businesses:
 •Optimize customer acquisition cost
 
 **Tech Stack :-**
+
 •Python
 •Pandas
 •NumPy
