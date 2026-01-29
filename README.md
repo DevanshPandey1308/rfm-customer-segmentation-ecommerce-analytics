@@ -1,6 +1,7 @@
-**Customer Segmentation Using RFM Analysis**
+# Customer Segmentation Using RFM Analysis
 
-**Problem Statement :-*
+**Problem Statement :-**
+
 •Raw transaction data does not directly tell a business:
 •Who their best customers are
 •Who is about to churn
@@ -8,7 +9,8 @@
 This project solves that using RFM-based customer segmentation.
 
 **Dataset :-**
-E-commerce transactional dataset containing:
+
+**E-commerce transactional dataset containing :-**
 •Invoice details
 •Product information
 •Quantity and price
@@ -17,7 +19,7 @@ E-commerce transactional dataset containing:
 
 **Project Workflow :-**
 
-**1. Data Cleaning & Preprocessing**
+**1. Data Cleaning & Preprocessing :-**
 
 Performed using Pandas:
 •Removed records with missing CustomerID
@@ -26,7 +28,7 @@ Performed using Pandas:
 •Cleaned inconsistent product descriptions
 •Ensured correct data types for dates and numeric fields
 
-**2. Exploratory Data Analysis (EDA)**
+**2. Exploratory Data Analysis (EDA) :-**
 
 Analyzed:
 •Revenue trends over months
@@ -38,7 +40,7 @@ Analyzed:
 
 Matplotlib, Seaborn
 
-**3. RFM Feature Engineering**
+**3. RFM Feature Engineering :-**
 
 For each customer:
 Metric 	--   Definition
@@ -46,7 +48,7 @@ Recency	     Days since last purchase
 Frequency    Number of unique invoices
 Monetary	   Total revenue generated
 
-**4. RFM Scoring**
+**4. RFM Scoring :-**
 
 Used quantile-based scoring (1–5 scale):
 •Low Recency → Higher score
@@ -54,7 +56,7 @@ Used quantile-based scoring (1–5 scale):
 •High Monetary → Higher score
 Converted R, F, M into customer segments.
 
-5. Customer Segmentation Logic
+**5. Customer Segmentation Logic :-**
 
 Segment  --  	Meaning
 High Value	  Most recent, frequent, and high-spending customers
@@ -81,6 +83,7 @@ This model helps businesses:
 •Power BI (for dashboard visualization)
 
 **Files in Repository :-**
+
 •Ecommerce_Data_Analysis.ipynb → Full EDA + RFM modeling
 •Dashboard visuals → Customer segmentation insights
 •Raw datasets
