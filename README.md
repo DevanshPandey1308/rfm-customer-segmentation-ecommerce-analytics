@@ -57,7 +57,7 @@ Matplotlib, Seaborn
 | Monetary  | Higher spending → Higher score         |
 | Method    | Quantile-based scoring (1–5 scale)     |
 
-***5. Customer Segmentation Logic:-**
+**5. Customer Segmentation Logic:-**
 
 | Segment    | Characteristics                          | Business Action                  |
 |-----------|-------------------------------------------|----------------------------------|
