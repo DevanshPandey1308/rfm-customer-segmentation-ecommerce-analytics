@@ -92,7 +92,7 @@ This project addresses these problems using RFM-based customer segmentation.
 |----------|------|
 | Programming | Python |
 | Data Handling | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
+| Visualization | Matplotlib, Seaborn, Power BI |
 | Environment | Jupyter Notebook |
 | BI Tool | Power BI |
 
