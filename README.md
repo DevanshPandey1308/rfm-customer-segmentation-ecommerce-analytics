@@ -40,29 +40,32 @@ Analyzed:
 
 Matplotlib, Seaborn
 
-**3. RFM Feature Engineering :-**
+**3. RFM Feature Engineering:-**
 
-For each customer:
-Metric 	--   Definition
-Recency	     Days since last purchase
-Frequency    Number of unique invoices
-Monetary	   Total revenue generated
+| Metric     | Definition                   | Business Meaning                |
+|-----------|------------------------------|---------------------------------|
+| Recency   | Days since last purchase     | How recently a customer bought  |
+| Frequency | Number of unique invoices    | How often the customer buys     |
+| Monetary  | Total revenue generated      | How much the customer spends    |
 
-**4. RFM Scoring :-**
+**4. RFM Scoring:-**
 
-Used quantile-based scoring (1–5 scale):
-•Low Recency → Higher score
-•High Frequency → Higher score
-•High Monetary → Higher score
-Converted R, F, M into customer segments.
+| Rule       | Scoring Logic                         |
+|-----------|----------------------------------------|
+| Recency   | Lower recency → Higher score           |
+| Frequency | Higher frequency → Higher score        |
+| Monetary  | Higher spending → Higher score         |
+| Method    | Quantile-based scoring (1–5 scale)     |
 
-**5. Customer Segmentation Logic :-**
+***5. Customer Segmentation Logic:-**
 
-Segment  --  	Meaning
-High Value	  Most recent, frequent, and high-spending customers
-Loyal	        Consistent repeat buyers
-At Risk	      Previously active, now inactive
-Dormant	      Low activity and low revenue
+| Segment    | Characteristics                          | Business Action                  |
+|-----------|-------------------------------------------|----------------------------------|
+| High Value| Recent, frequent, high spenders           | Retention & premium offers       |
+| Loyal     | Consistent repeat buyers                  | Loyalty rewards & upselling      |
+| At Risk   | Previously active, now inactive           | Re-engagement campaigns          |
+| Dormant   | Low activity and low spending             | Win-back or low-cost targeting   |
+
 
 **Business Insights :-**
 
