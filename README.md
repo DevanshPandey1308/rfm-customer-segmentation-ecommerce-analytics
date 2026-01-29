@@ -1,48 +1,51 @@
 # Customer Segmentation Using RFM Analysis
 
-**Problem Statement :-**
+**Problem Statement**
 
-•Raw transaction data does not directly tell a business:
-•Who their best customers are
-•Who is about to churn
-•Where marketing money should be spent
-This project solves that using RFM-based customer segmentation.
+| Challenge | Description |
+|-----------|-------------|
+| Customer visibility gap | Raw transaction data does not clearly show who the best customers are |
+| Churn detection | Businesses struggle to identify customers who are about to churn |
+| Marketing allocation | Difficult to decide where marketing budget should be spent |
 
----
-
-**Dataset :-**
-
-**E-commerce transactional dataset containing :-**
-•Invoice details
-•Product information
-•Quantity and price
-•Customer IDs
-•Transaction timestamps
+This project addresses these problems using RFM-based customer segmentation.
 
 ---
 
-**Project Workflow :-**
+**Dataset**
 
-**1. Data Cleaning & Preprocessing :-**
+| Type | Details |
+|------|--------|
+| Data Source | E-commerce transactional dataset |
+| Contents | Invoice details, product information, quantity, price, customer IDs, transaction timestamps |
 
-Performed using Pandas:
-•Removed records with missing CustomerID
-•Detected and removed duplicate rows
-•Isolated cancelled transactions (negative quantity)
-•Cleaned inconsistent product descriptions
-•Ensured correct data types for dates and numeric fields
+---
 
-**2. Exploratory Data Analysis (EDA) :-**
+**Project Workflow**
 
-Analyzed:
-•Revenue trends over months
-•Sales behavior by day of the week
-•Customer purchasing patterns
-•Distribution of order frequency
+**1. Data Cleaning & Preprocessing**
 
-**Libraries used:**
+| Task | Purpose |
+|------|--------|
+| Remove missing Customer IDs | Ensure valid customer-level analysis |
+| Remove duplicate rows | Prevent data inflation |
+| Isolate cancelled transactions | Avoid revenue distortion |
+| Clean product descriptions | Improve data consistency |
+| Correct data types | Enable accurate analysis |
 
-Matplotlib, Seaborn
+---
+
+**2. Exploratory Data Analysis (EDA)**
+
+| Analysis | Insight Goal |
+|----------|--------------|
+| Revenue trends over months | Understand sales growth patterns |
+| Sales by day of week | Identify behavioral timing patterns |
+| Customer purchasing behavior | Detect buying trends |
+| Order frequency distribution | Understand repeat vs one-time buyers |
+
+**Libraries Used:** Matplotlib, Seaborn
+
 
 **3. RFM Feature Engineering:-**
 
